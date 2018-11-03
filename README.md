@@ -45,5 +45,9 @@ Roles:
   Moderator: Moderator # モデレーターの権利名
 ```
 
+# Screenshot
+![1](https://i.gyazo.com/fdaafe2a0ca6227326c06a022a7101be.png "1")
+![2](https://i.gyazo.com/386bd1e5e60e2ad9da5506355d5e2e10.png "2")
+
 # Download
 v1.0: [Discord-Tounament-1.0.jar](https://github.com/SimplyRin/Discord-Tounament/releases/download/1.0/Discord-Tounament-1.0.jar)
