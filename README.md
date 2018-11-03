@@ -1,7 +1,7 @@
 # Discord-Tounament
 コードがざつ。
 
-ダウンロードはページの一番下か Release ページからできます。
+ダウンロードはページの一番下か [Release](https://github.com/SimplyRin/Discord-Tounament/releases) ページからできます。
 
 # Requirement
 - Java 8+
