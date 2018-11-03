@@ -32,6 +32,7 @@
 ```
 
 # Config
+**・config.yml**
 ```Yaml
 Token: BOT_TOKEN_HERE # Discord Bot Token を貼り付け
 Owner: '224428706209202177' # Bot 管理者が使用するアカウントID
@@ -43,6 +44,12 @@ Channels:
   Application: '000000000000000000' # "参加申請" を検索するチャンネル(メッセージ受信時)
 Roles:
   Moderator: Moderator # モデレーターの権利名
+```
+
+**・mod.yml**
+```Yaml
+List:
+- '000000000000000000'
 ```
 
 # Screenshot
