@@ -74,7 +74,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
  ```
 
-**・BungeeCord (ChatColor API) | BSD 3-Clause "New" or "Revised" License**
+**・BungeeCord (Config API) | BSD 3-Clause "New" or "Revised" License**
 ```
 Copyright (c) 2012, md_5. All rights reserved.
 
