@@ -1,6 +1,8 @@
 # Discord-Tounament
 コードがざつ。
 
+集計をとったリストを表示、シャッフル、管理ユーザー側でユーザーリストを追加、削除などの機能が使えます
+
 ダウンロードはページの一番下か [Release](https://github.com/SimplyRin/Discord-Tounament/releases) ページからできます。
 
 # Requirement
