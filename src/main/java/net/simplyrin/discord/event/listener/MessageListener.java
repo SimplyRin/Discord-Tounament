@@ -70,7 +70,6 @@ public class MessageListener extends ListenerAdapter {
 		String[] args = message.split(" ");
 
 		if (args.length > 0) {
-
 			try {
 				if (sender.getType().equals(ChannelType.PRIVATE)) {
 					return;
@@ -81,7 +80,6 @@ public class MessageListener extends ListenerAdapter {
 
 			if (sender.getId().equals(this.instance.getConfig().get("Channels.Application"))) {
 				if (message.contains("参加") && message.contains("申請")) {
-
 					EmbedBuilder embedBuilder = new EmbedBuilder();
 					embedBuilder.setColor(Color.GREEN);
 					embedBuilder.setTitle(this.instance.getConfig().getString("TournamentName"));
@@ -165,7 +163,6 @@ public class MessageListener extends ListenerAdapter {
 			}
 
 			if (args[0].equalsIgnoreCase("t!admin")) {
-
 				if (!this.instance.getModManager().getModeratorList().contains(author.getId())) {
 					sender.sendMessage("あなたはこのコマンドを実行する権利がありません。").complete();
 					return;
@@ -188,7 +185,7 @@ public class MessageListener extends ListenerAdapter {
 							this.instance.getConfig().set("Channels.Application", args[2]);
 						}
 						MessageChannel messageChannel = guild.getTextChannelById(this.instance.getConfig().getString("Channels.Application"));
-						sender.sendMessage("使用方法: /t!admin channel <channelId>\n\n現在設定されているテキストチャンネル: <#" + messageChannel.getId() + ">").complete();
+						sender.sendMessage("使用方法: t!admin channel <channelId>\n\n現在設定されているテキストチャンネル: <#" + messageChannel.getId() + ">").complete();
 						return;
 					}
 
@@ -321,7 +318,6 @@ public class MessageListener extends ListenerAdapter {
 			}
 
 			if (args[0].equalsIgnoreCase("t!mod")) {
-
 				if (!this.instance.getModManager().getModeratorList().contains(author.getId())) {
 					sender.sendMessage("あなたはこのコマンドを実行する権利がありません。").complete();
 					return;

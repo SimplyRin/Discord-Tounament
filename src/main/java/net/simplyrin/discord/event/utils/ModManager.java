@@ -45,7 +45,7 @@ public class ModManager {
 			}
 
 			Configuration config = Config.getConfig(this.file);
-			config.set("List", Arrays.asList("224428706209202177", "324870660897898496"));
+			config.set("List", Arrays.asList("000000000000000000"));
 			Config.saveConfig(config, this.file);
 		}
 

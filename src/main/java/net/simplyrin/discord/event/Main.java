@@ -57,7 +57,7 @@ public class Main {
 		System.out.println("Loading files...");
 
 		File file = new File("config.yml");
-		if(!file.exists()) {
+		if (!file.exists()) {
 			try {
 				file.createNewFile();
 			} catch (IOException e) {
