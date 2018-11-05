@@ -4,7 +4,7 @@
 
   <groupId>net.simplyrin.discord.tounament</groupId>
   <artifactId>Discord-Tounament</artifactId>
-  <version>1.0</version>
+  <version>1.1</version>
   <packaging>jar</packaging>
 
   <name>taikaiuketuke</name>
@@ -19,29 +19,22 @@
   <build>
     <plugins>
       <plugin>
-      <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-assembly-plugin</artifactId>
-        <version>3.0.0</version>
-        <configuration>
-          <finalName>Discord-Tounament</finalName>
-          <descriptorRefs>
-            <descriptorRef>jar-with-dependencies</descriptorRef>
-          </descriptorRefs>
-          <archive>
-            <manifest>
-               <mainClass>net.simplyrin.discord.event.Main</mainClass>
-            </manifest>
-          </archive>
-        </configuration>
+        <version>3.1.0</version>
         <executions>
           <execution>
             <id>make-assembly</id>
             <phase>package</phase>
             <goals>
-               <goal>single</goal>
+              <goal>single</goal>
             </goals>
           </execution>
         </executions>
+        <configuration>
+          <descriptorRefs>
+            <descriptorRef>jar-with-dependencies</descriptorRef>
+          </descriptorRefs>
+        </configuration>
       </plugin>
     </plugins>
   </build>
