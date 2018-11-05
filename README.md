@@ -111,4 +111,4 @@ POSSIBILITY OF SUCH DAMAGE.
 
 
 # Download
-v1.0: [Discord-Tounament-1.0.jar](https://github.com/SimplyRin/Discord-Tounament/releases/download/1.0/Discord-Tounament-1.0.jar)
+v1.1: [Discord-Tounament-1.1.jar](https://github.com/SimplyRin/Discord-Tounament/releases/download/1.1/Discord-Tounament-1.1.jar)
