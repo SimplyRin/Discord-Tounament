@@ -10,6 +10,22 @@
 - Discord Server
 - Discord Bot Token
 
+# Setup
+1: ページの一番下から Jar ファイルをダウンロードします。
+
+2: フォルダを作ってその中に `start.bat` ファイルを作成します。(メモリは環境によって変更して下さい。そんなに重くないので 128MB くらいで動くと思います)
+```
+@echo off
+java -jar -Xms64M -Xmx128M Discord-Tounament-X.X.jar
+pause
+```
+
+3: `start.bat` を実行
+
+4: `config.yml` を適切に編集して保存した後もう一度 `start.bat` を実行
+
+5: Bot を Discord サーバーに追加して終了です。
+
 # Commands
 ```
 トーナメント名を設定する
